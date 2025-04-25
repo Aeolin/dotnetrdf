@@ -23,11 +23,8 @@
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\dotNetRdf.Client\dotNetRdf.Client.csproj" />
-    <ProjectReference Include="..\dotNetRdf.Core\dotNetRdf.Core.csproj" />
     <ProjectReference Include="..\dotNetRdf.Data.DataTables\dotNetRdf.Data.DataTables.csproj" />
     <ProjectReference Include="..\dotNetRdf.Data.Virtuoso\dotNetRdf.Data.Virtuoso.csproj" Condition=" '$(TargetFramework)' == 'net472' " />
-    <ProjectReference Include="..\dotNetRdf.Dynamic\dotNetRdf.Dynamic.csproj" />
     <ProjectReference Include="..\dotNetRdf.Inferencing\dotNetRdf.Inferencing.csproj" />
     <ProjectReference Include="..\dotNetRdf.Ontology\dotNetRdf.Ontology.csproj" />
     <ProjectReference Include="..\dotNetRdf.Query.FullText\dotNetRdf.Query.FullText.csproj" />

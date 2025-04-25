@@ -215,7 +215,7 @@ namespace VDS.RDF.Parsing
         {
             try
             {
-                var uri = Tools.ResolveUri(value, string.Empty, context.UriFactory);
+                var uri = Tools.ResolveUri(value, context.Handler.BaseUri.AbsoluteUri, context.UriFactory);
                 return context.Handler.CreateUriNode(context.UriFactory.Create(uri));
             }
             catch (UriFormatException formatEx)
