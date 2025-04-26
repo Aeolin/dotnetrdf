@@ -9,13 +9,16 @@
 
   <PropertyGroup>
     <!-- NuGet Package Metadata. Additional values are inherited from ../Directory.Build.props -->
-    <PackageId>dotNetRdf</PackageId>
-    <Title>dotNetRDF Meta-package</Title>
-    <Description>This package installs all of the dotNetRDF packages.</Description>
+    <PackageId>Aeolin.dotNetRdf</PackageId>
+    <Title>Aeolin.dotNetRDF Custom Fixes DoNotUse</Title>
+    <Description>This package installs all of the dotNetRDF packages.
+Aeolin.dotNetRDF Custom Fixes DoNotUse</Description>
     <PackageTags>RDF;Semantic;Web;Linked Data;SPARQL;RDF/XML;Turtle;Notation3;JSON-LD;RDFStar</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
 		<IncludeBuildOutput>false</IncludeBuildOutput>
 	  <IncludeContentInPack>true</IncludeContentInPack>
+	  <Company>$(Authors),Aeolin</Company>
+	  <Product>Aeolin.$(AssemblyName)</Product>
   </PropertyGroup>
   
   <ItemGroup>
