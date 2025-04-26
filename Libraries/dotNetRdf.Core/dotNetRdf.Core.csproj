@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <AssemblyName>dotNetRdf</AssemblyName>
+    <AssemblyName>Aeolin.dotNetRdf</AssemblyName>
     <AssemblyTitle>dotNetRDF</AssemblyTitle>
     <RootNamespace>VDS.RDF</RootNamespace>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
@@ -9,10 +9,11 @@
 
   <PropertyGroup>
     <!-- NuGet Package Metadata. Additional values are inherited from ../Directory.Build.props -->
-    <PackageId>dotNetRdf.Core</PackageId>
+    <PackageId>Aeolin.dotNetRdf.Core</PackageId>
     <Title>dotNetRDF Core Library</Title>
     <Description>dotNetRDF is an RDF, SPARQL and Linked Datat API for .Net.  It provides simple but powerfully extensible APIs for this and integrates with a variety of popular triple stores.</Description>
     <PackageTags>RDF;Semantic;Web;Linked Data;SPARQL;RDF/XML;Turtle;Notation3;JSON-LD;RDFStar</PackageTags>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 

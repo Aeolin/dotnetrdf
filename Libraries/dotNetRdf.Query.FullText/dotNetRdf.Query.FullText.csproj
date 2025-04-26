@@ -1,16 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <AssemblyName>dotNetRdf.Query.FullText</AssemblyName>
+    <AssemblyName>Aeolin.dotNetRdf.Query.FullText</AssemblyName>
     <AssemblyTitle>dotNetRDF Full Text Query Support</AssemblyTitle>
     <RootNamespace>VDS.RDF.Query</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
     <!-- NuGet Package Metadata. Additional values are inherited from ../Directory.Build.props -->
-    <PackageId>dotNetRdf.Query.FullText</PackageId>
+    <PackageId>Aeolin.dotNetRdf.Query.FullText</PackageId>
     <Title>dotNetRDF Full Text Query Support</Title>
     <Description>Provides Full Text SPARQL support as a plugin for the dotNetRDF Leviathan SPARQL Engine using Lucene.Net</Description>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageTags>RDF;Semantic;Web;SPARQL;Query;Full;Text;Lucene</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>

@@ -1,16 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <AssemblyName>dotNetRdf.Shacl</AssemblyName>
+    <AssemblyName>Aeolin.dotNetRdf.Shacl</AssemblyName>
     <AssemblyTitle>dotNetRdf SHACL Support</AssemblyTitle>
     <RootNamespace>VDS.RDF.Shacl</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
     <!-- NuGet Package Metadata. Additional values are inherited from ../Directory.Build.props -->
-    <PackageId>dotNetRdf.Shacl</PackageId>
+    <PackageId>Aeolin.dotNetRdf.Shacl</PackageId>
     <Title>dotNetRdf SHACL Support</Title>
     <Description>Provides support for validating RDF graphs with the W3C Shape Constraint Language.</Description>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageTags>RDF;Validation;Shapes;Constraint;SHACL</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>

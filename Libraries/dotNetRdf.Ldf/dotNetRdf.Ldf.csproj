@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <AssemblyTitle>dotNetRdf Linked Data Fragments Support</AssemblyTitle>
@@ -7,9 +7,10 @@
 
   <PropertyGroup>
     <!-- NuGet Package Metadata. Additional values are inherited from ../Directory.Build.props -->
-    <PackageId>dotNetRdf.Ldf</PackageId>
+    <PackageId>Aeolin.dotNetRdf.Ldf</PackageId>
     <Title>dotNetRdf Linked Data Fragments Support</Title>
     <Description>Provides support for Linked Data Fragments.</Description>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageTags>RDF;LDF;TPF;linked data fragments;triple pattern fragments</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>

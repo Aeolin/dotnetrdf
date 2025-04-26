@@ -1,34 +1,35 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-    <PropertyGroup>
-        <AssemblyName>dotNetRdf.Query.Pull</AssemblyName>
-        <AssemblyTitle>dotNetRDF Asynchronous Pull Evaluation SPARQL Engine</AssemblyTitle>
-        <TargetFramework>netstandard2.1</TargetFramework>
-        <ImplicitUsings>enable</ImplicitUsings>
-        <Nullable>enable</Nullable>
-        <RootNamespace>VDS.RDF.Query.Pull</RootNamespace>
-    </PropertyGroup>
-    
-    <PropertyGroup>
-        <PackageId>dotNetRdf.Query.Pull</PackageId>
-        <Title>dotNetRDF EXPERIMENTAL Asynchronous Pull Evaluation SPARQL Engine</Title>
-        <Description>Provides an alterante SPARQL query engine which uses asynchronous pull-based evaluation. This package is experimental and may be signficantly altered or even withdrawn in a future dotNetRDF release.</Description>
-        <PackageTags>RDF;SPARQL;Query</PackageTags>
-        <PackageReadmeFile>README.md</PackageReadmeFile>
-    </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyName>Aeolin.dotNetRdf.Query.Pull</AssemblyName>
+    <AssemblyTitle>dotNetRDF Asynchronous Pull Evaluation SPARQL Engine</AssemblyTitle>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>VDS.RDF.Query.Pull</RootNamespace>
+  </PropertyGroup>
 
-    <ItemGroup>
-        <None Include="../../README.md" Pack="true" PackagePath="/" />
-    </ItemGroup>
+  <PropertyGroup>
+    <PackageId>Aeolin.dotNetRdf.Query.Pull</PackageId>
+    <Title>dotNetRDF EXPERIMENTAL Asynchronous Pull Evaluation SPARQL Engine</Title>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Description>Provides an alterante SPARQL query engine which uses asynchronous pull-based evaluation. This package is experimental and may be signficantly altered or even withdrawn in a future dotNetRDF release.</Description>
+    <PackageTags>RDF;SPARQL;Query</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
 
-    <ItemGroup>
-      <ProjectReference Include="..\dotNetRdf.Core\dotNetRdf.Core.csproj" />
-    </ItemGroup>
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
 
-    <ItemGroup>
-      <PackageReference Include="System.Interactive.Async" Version="6.0.1" />
-      <PackageReference Include="System.Linq.Async" Version="6.0.1" />
-      <PackageReference Include="System.Threading.Channels" Version="8.0.0" />
-    </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\dotNetRdf.Core\dotNetRdf.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Interactive.Async" Version="6.0.1" />
+    <PackageReference Include="System.Linq.Async" Version="6.0.1" />
+    <PackageReference Include="System.Threading.Channels" Version="8.0.0" />
+  </ItemGroup>
 
 </Project>

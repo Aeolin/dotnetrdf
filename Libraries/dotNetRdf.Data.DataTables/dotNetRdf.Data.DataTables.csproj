@@ -1,16 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <AssemblyName>dotNetRdf.Data.DataTables</AssemblyName>
+    <AssemblyName>Aeolin.dotNetRdf.Data.DataTables</AssemblyName>
     <AssemblyTitle>dotNetRDF DataTables</AssemblyTitle>
     <RootNamespace>VDS.RDF.Data.DataTables</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
     <!-- NuGet Package Metadata. Additional values are inherited from ../Directory.Build.props -->
-    <PackageId>dotNetRdf.Data.DataTables</PackageId>
+    <PackageId>Aeolin.dotNetRdf.Data.DataTables</PackageId>
     <Title>dotNetRDF DataTables</Title>
     <Description>Package which allow integrating dotNetRDF with System.Data.DataTable</Description>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageTags>RDF;Semantic;Web;DataTables</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>

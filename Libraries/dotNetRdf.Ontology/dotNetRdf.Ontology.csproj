@@ -1,16 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <AssemblyName>dotNetRdf.Ontology</AssemblyName>
+    <AssemblyName>Aeolin.dotNetRdf.Ontology</AssemblyName>
     <AssemblyTitle>dotNetRDF Ontology API</AssemblyTitle>
     <RootNamespace>VDS.RDF</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup>
     <!-- NuGet Package Metadata. Additional values are inherited from ../Directory.Build.props -->
-    <PackageId>dotNetRdf.Ontology</PackageId>
+    <PackageId>Aeolin.dotNetRdf.Ontology</PackageId>
     <Title>dotNetRDF Ontology API</Title>
     <Description>Provides a convenience API for creating RDF graphs that contain RDF Schema/Ontology data.</Description>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageTags>RDF;Semantic;Web;RDF Schema;OWL</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>

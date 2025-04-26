@@ -1,10 +1,11 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <AssemblyName>dotNetRdf</AssemblyName>
+    <AssemblyName>Aeolin.dotNetRdf</AssemblyName>
     <AssemblyTitle>dotNetRDF</AssemblyTitle>
     <RootNamespace>VDS.RDF</RootNamespace>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <VersionPrefix>1.0.1</VersionPrefix>
   </PropertyGroup>
 
   <PropertyGroup>
@@ -19,6 +20,7 @@ Aeolin.dotNetRDF Custom Fixes DoNotUse</Description>
 	  <IncludeContentInPack>true</IncludeContentInPack>
 	  <Company>$(Authors),Aeolin</Company>
 	  <Product>Aeolin.$(AssemblyName)</Product>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
   
   <ItemGroup>
